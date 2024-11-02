@@ -2,6 +2,7 @@
 *.html
 assets/scss/*
 assets/css/*
+assets/js/*
 .DS_Store
 prepros.config
 .sass-cache/
