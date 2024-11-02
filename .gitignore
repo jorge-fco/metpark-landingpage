@@ -1,5 +1,4 @@
 *.pug
-*.html
 assets/scss/*
 assets/css/*
 assets/js/*
