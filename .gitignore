@@ -1,3 +1,10 @@
+*.pug
+*.html
+assets/scss/*
+assets/css/*
+assets/images/*
+.DS_Store
+prepros.config
 .sass-cache/
 *.css.map
 *.sass.map
