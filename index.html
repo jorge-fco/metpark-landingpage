@@ -65,7 +65,7 @@
 <!-- FONTS-->
 <!-- ICONS-->
 <!-- TITLE--><title>MetPark Galerías Living – Home</title>
-<!-- CSS--><link rel="stylesheet" href="https://jorge-fco.github.io/metpark-landingpage/assets/dist/main.min.css?v=7.06">
+<!-- CSS--><link rel="stylesheet" href="https://jorge-fco.github.io/metpark-landingpage/assets/dist/main.min.css?v=8.01">
 <!-- GTM--><script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXX"></script>
 <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXX');</script></head>
 <body class="js-body">
@@ -182,40 +182,7 @@
 </ol>
 <h4 class="js-modal-unidades"></h4>
 <h5><data class="js-modal-interior"></data> <span></span> <data class="js-modal-terraza"></data></h5>
-<ul>
-<li>
-<data>1</data>
-<span>Ingreso</span>
-</li>
-<li>
-<data>2</data>
-<span>Estancia-Comedor</span>
-</li>
-<li>
-<data>3</data>
-<span>Cocina</span>
-</li>
-<li>
-<data>4</data>
-<span>Cuarto de lavado</span>
-</li>
-<li>
-<data>5</data>
-<span>Recámara Principal</span>
-</li>
-<li>
-<data>6</data>
-<span>Baño Completo</span>
-</li>
-<li>
-<data>7</data>
-<span>Terraza</span>
-</li>
-<li role="estacionamiento">
-<em>+</em>
-<data>1</data>
-<span>Cajón de estacionamiento</span>
-</li>
+<ul id="list">
 </ul>
 <div class="modal__information__footer">
 <p>* Los metrajes de las tipologías pueden variar.</p>
@@ -568,7 +535,7 @@
 </div>
 <!-- TITLE--><!--GRID ROW-->
 <div class="home__typologies__grid" role="grid">
-<!--= 01--><div class="home__typologies__column" role="column">
+<!--=== 01--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -580,7 +547,11 @@
 data-title="LOFT: TORRE ARRAYÁN"
 data-superficie="65.20 M<sup>2</sup>"
 data-unidades="8 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 45.00 M2" data-terraza="TERRAZA 9.90 M2" data-bathroom="2 recámaras" data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/lpiplanta_11sept.webp?v="><span>LOFT: TORRE ARRAYÁN</span>
+data-interior="ÁREA INTERIOR 45.00 M2"
+data-terraza="TERRAZA 9.90 M2"
+data-bathroom="2 recámaras"
+data-bedroom="2 baños"
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/lpiplanta_11sept.webp?v="><span>LOFT: TORRE ARRAYÁN</span>
 </a>
 <p>65.20 M<sup>2</sup></p>
 <p>8 UNIDADES EN EL DESARROLLO</p>
@@ -588,8 +559,8 @@ data-interior="ÁREA INTERIOR 45.00 M2" data-terraza="TERRAZA 9.90 M2" data-bath
 </div>
 </article>
 </div>
-<!--= 01-->
-<!--= 02--><div class="home__typologies__column" role="column">
+<!--=== 01-->
+<!--=== ✅02--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -598,19 +569,25 @@ data-interior="ÁREA INTERIOR 45.00 M2" data-terraza="TERRAZA 9.90 M2" data-bath
 </div>
 <div class="home__typologies__item__information">
 <a href="#"class="button button__primary js-modal-open"
-data-title="LOFT: TORRE ARRAYÁN"
+data-title="LOFT: TORRE CIPRÉS"
 data-superficie="54.90 M<sup>2</sup>"
 data-unidades="26 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 71.33 M2" data-terraza="TERRAZA 8.25 M2"
-data-bathroom="1 recámaras" data-bedroom="1 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/LOFT_TORRE_CIPRES.png?v="><span>LOFT: TORRE CIPRÉS</span>
+data-interior="ÁREA INTERIOR 45.00 M2"
+data-terraza="TERRAZA 9.90 M2"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal, Baño Completo, Terraza,"
+data-estacionamiento="1"
+data-bathroom="1 recámaras"
+data-bedroom="1 baños"
+data-class="is--adapter"
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/LOFT_TORRE_CIPRES.png?v="><span>LOFT: TORRE CIPRÉS</span>
 </a>
 <p>54.90 M<sup>2</sup></p>
 <p>26 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-<!--= 02-->
-<!--= 03--><div class="home__typologies__column" role="column">
+<!--=== ✅02-->
+<!--=== ✅03--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -622,15 +599,22 @@ data-bathroom="1 recámaras" data-bedroom="1 baños" data-image="https://jorge-f
 data-title="LOFT PLUS INTERIOR: TORRE BAMBÚ"
 data-superficie="79.58 M<sup>2</sup>"
 data-unidades="10 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 78.72 M2" data-terraza="TERRAZA 8.52 M2"
-data-bathroom="2 recámaras" data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/lpf_planta_11sept.webp?v="><span>LOFT PLUS INTERIOR: TORRE BAMBÚ</span>
+data-interior="ÁREA INTERIOR 71.33 M2"
+data-terraza="TERRAZA 8.52 M2"
+data-bathroom="2 recámaras"
+data-bedroom="2 baños"
+data-class="is--normal"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal, Recámara Secundaria, Baño Completo 1, Baño Completo 2, Terraza,"
+data-estacionamiento="2"
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/LOFT_PLUS_INTERIOR.webp?v="><span>LOFT PLUS INTERIOR: TORRE BAMBÚ</span>
 </a>
 <p>79.58 M<sup>2</sup></p>
 <p>10 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-<!--= 04--><div class="home__typologies__column" role="column">
+<!--=== ✅03-->
+<!--=== ✅04--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -641,16 +625,22 @@ data-bathroom="2 recámaras" data-bedroom="2 baños" data-image="https://jorge-f
 <a href="#" class="button button__primary js-modal-open"data-title="LOFT PLUS FACHADA: TORRE BAMBÚ"
 data-superficie="87.24 M<sup>2</sup>"
 data-unidades="10 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 78.72 M2" data-terraza="TERRAZA 8.52 M2"
+data-interior="ÁREA INTERIOR 78.72 M2"
+data-terraza="TERRAZA 8.52 M2"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal, Recámara Secundaria, Baño Completo 1, Baño Completo 2, Terraza,"
+data-estacionamiento="2"
 data-bathroom="2 recámaras"
-data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/lpf_planta_11sept.webp?v="><span>LOFT PLUS FACHADA: TORRE BAMBÚ</span>
+data-bedroom="2 baños"
+data-class=""
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/lpf_planta_11sept.webp?v="><span>LOFT PLUS FACHADA: TORRE BAMBÚ</span>
 </a>
 <p>87.24 M<sup>2</sup></p>
 <p>10 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-<!-- 05--><div class="home__typologies__column" role="column">
+<!--=== ✅04-->
+<!--=== ✅05--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -660,17 +650,23 @@ data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingp
 <div class="home__typologies__item__information">
 <a href="#" class="button button__primary js-modal-open"data-title="TIPO A PLUS: TORRE CIPRÉS"
 data-superficie="97.40 M<sup>2</sup>"
-data-unidades="26 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 88.20 M2" data-terraza="TERRAZA 9.20 M2"
+data-unidades="13 UNIDADES EN EL DESARROLLO"
+data-interior="ÁREA INTERIOR 88.20 M2"
+data-terraza="TERRAZA 9.20 M2"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal con vestidor, Recámara Secundaria, Recámara Secundaria, Baño Completo 1, Baño Completo 2,"
+data-estacionamiento="2"
 data-bathroom="2 recámaras"
-data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TipoB_planta_11sept.webp?v="><span>TIPO A PLUS: TORRE CIPRÉS</span>
+data-bedroom="2 baños"
+data-class="is--normal"
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/APLUSCUARTO.webp?v="><span>TIPO A PLUS: TORRE CIPRÉS</span>
 </a>
 <p>97.40 M<sup>2</sup></p>
-<p>26 UNIDADES EN EL DESARROLLO</p>
+<p>13 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-<!--= 06--><div class="home__typologies__column" role="column">
+<!--=== ✅05-->
+<!--=== ✅06--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -678,19 +674,25 @@ data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingp
 </picture>
 </div>
 <div class="home__typologies__item__information">
-<a href="#" class="button button__primary js-modal-open"data-title="LOFT PLUS FACHADA: TORRE CIPRÉS"
+<a href="#" class="button button__primary js-modal-open"data-title="TIPO A: TORRE CIPRÉS"
 data-superficie="100.92 M<sup>2</sup>"
 data-unidades="26 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 85.70 M2" data-terraza="TERRAZA 15.22 M2"
+data-interior="ÁREA INTERIOR 85.70 M2"
+data-terraza="TERRAZA 15.22 M2"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal con vestidor, Recámara Secundaria, Baño Completo 1, Baño Completo 2, Terraza,"
+data-estacionamiento="2"
 data-bathroom="2 recámaras"
-data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TIPOA_FINAL.webp?v="><span>LOFT PLUS FACHADA: TORRE CIPRÉS</span>
+data-bedroom="2 baños"
+data-class="is--normal"
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TIPOA_FINAL.webp?v="><span>TIPO A: TORRE CIPRÉS</span>
 </a>
 <p>100.92 M<sup>2</sup></p>
 <p>26 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-<!--= 07--><div class="home__typologies__column" role="column">
+<!--=== ✅06-->
+<!--=== ✅07--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -698,19 +700,25 @@ data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingp
 </picture>
 </div>
 <div class="home__typologies__item__information">
-<a href="#" class="button button__primary js-modal-open"data-title="LOFT PLUS FACHADA: TORRE BAMBÚ"
+<a href="#" class="button button__primary js-modal-open"data-title="TIPO B: TORRE BAMBÚ"
 data-superficie="115.98 M<sup>2</sup>"
 data-unidades="10 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 100.23 M2" data-terraza="TERRAZA 15.75  M2"
-data-bathroom="2 recámaras"
-data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TIPOBCUARTO.webp?v="><span>LOFT PLUS FACHADA: TORRE BAMBÚ</span>
+data-interior="ÁREA INTERIOR 100.23 M2"
+data-terraza="TERRAZA 15.75  M2"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal con Vestidor, Recámara Secundaria, Recámara Secundaria, Baño Completo 1, Baño Completo 2, Terraza,"
+data-estacionamiento="2"
+data-bathroom="3 recámaras"
+data-bedroom="2 baños"
+data-class="is--normal"
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TIPOBCUARTO.webp?v="><span>TIPO B: TORRE BAMBÚ</span>
 </a>
 <p>115.98 M<sup>2</sup></p>
 <p>10 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-<!--= 08--><div class="home__typologies__column" role="column">
+<!--=== ✅07-->
+<!--=== ✅08--><div class="home__typologies__column" role="column">
 <article class="home__typologies__item">
 <div class="home__typologies__item__thumb">
 <picture>
@@ -718,20 +726,23 @@ data-bedroom="2 baños" data-image="https://jorge-fco.github.io/metpark-landingp
 </picture>
 </div>
 <div class="home__typologies__item__information">
-<a href="#" class="button button__primary js-modal-open"data-title="LOFT PLUS FACHADA: TORRE BAMBÚ"
+<a href="#" class="button button__primary js-modal-open"data-title="TIPO B PLUS: TORRE CIPRÉS"
 data-superficie="142.50 M<sup>2</sup>"
-data-unidades="10 UNIDADES EN EL DESARROLLO"
-data-interior="ÁREA INTERIOR 127.49 M2" data-terraza="TERRAZA 15.07 M2"
+data-unidades="13 UNIDADES EN EL DESARROLLO"
+data-interior="ÁREA INTERIOR 127.49 M2"
+data-terraza="TERRAZA 15.07 M2"
+data-amenities="Ingreso, Estancia-Comedor, Cocina, Cuarto de lavado, Recámara Principal con vestidor, Recámara Secundaria, Recámara Secundaria, Baño Completo 1, Baño Completo 2, Balcón,"
+data-estacionamiento="2"
 data-bathroom="3 recámaras"
 data-bedroom="3 baños"
-data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TIPOBCUARTO.webp?v="><span>LOFT PLUS FACHADA: TORRE BAMBÚ</span>
+data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render/TIPOBCUARTO.webp?v="><span>TIPO B PLUS: TORRE CIPRÉS</span>
 </a>
 <p>142.50 M<sup>2</sup></p>
 <p>13 UNIDADES EN EL DESARROLLO</p>
 </div>
 </article>
 </div>
-</div>
+<!--=== ✅08--></div>
 <!--GRID ROW-->
 <div class="home__typologies__button">
 <a href="https://wa.me/523335050625?text=Visite tu sitio web y requiero más información de MetPark Galerias Living, por favor." class="button button__whatsapp" target="_blank">
@@ -1188,7 +1199,7 @@ data-image="https://jorge-fco.github.io/metpark-landingpage/assets/images/render
 </div>
 </footer><script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCav4aP8_L4hI0YYUDgbXuRB6obsSkUqDM"></script>
-<script src="https://jorge-fco.github.io/metpark-landingpage/assets/dist/vendors.min.js?v=4.04"></script>
-<script src="https://jorge-fco.github.io/metpark-landingpage/assets/dist/app.min.js?v=4.04"></script>
+<script src="https://jorge-fco.github.io/metpark-landingpage/assets/dist/vendors.min.js?v=4.09"></script>
+<script src="https://jorge-fco.github.io/metpark-landingpage/assets/dist/app.min.js?v=4.09"></script>
 </body>
 </html>
