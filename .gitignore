@@ -1,7 +1,9 @@
 *.pug
+*.php
 assets/scss/*
 assets/css/*
 assets/js/*
+mailer/*
 .DS_Store
 prepros.config
 .sass-cache/
